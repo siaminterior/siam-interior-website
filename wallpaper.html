@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Siam Interior | Wallpaper Collection</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#ffffff;
+}
+
+
+header{
+
+background:#0B5D3B;
+color:#D4AF37;
+padding:25px;
+text-align:center;
+font-size:35px;
+font-weight:bold;
+
+}
+
+
+h1{
+
+text-align:center;
+margin:40px 0;
+color:#0B5D3B;
+
+}
+
+
+.gallery{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:40px;
+
+}
+
+
+.item{
+
+background:white;
+border-radius:15px;
+box-shadow:0 5px 20px #ddd;
+padding:15px;
+text-align:center;
+
+}
+
+
+.item img{
+
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:12px;
+
+}
+
+
+.item h3{
+
+margin:15px;
+color:#0B5D3B;
+
+}
+
+
+.btn{
+
+display:inline-block;
+background:#25D366;
+color:white;
+padding:12px 20px;
+border-radius:25px;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+
+footer{
+
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+SIAM INTERIOR
+
+</header>
+
+
+
+<h1>
+Premium Wallpaper Collection
+</h1>
+
+
+
+<div class="gallery">
+
+
+<script>
+
+for(let i=1;i<=56;i++){
+
+let num=i.toString().padStart(2,'0');
+
+document.write(`
+
+<div class="item">
+
+<img src="${num}.png" alt="Wallpaper ${num}">
+
+<h3>
+Wallpaper ${num}
+</h3>
+
+
+<a class="btn"
+
+href="https://wa.me/8801630225319?text=Hello%20Siam%20Interior,%20I%20want%20to%20order%20Wallpaper%20${num}"
+
+target="_blank">
+
+WhatsApp Order
+
+</a>
+
+
+</div>
+
+`);
+
+}
+
+</script>
+
+
+</div>
+
+
+
+<footer>
+
+© 2026 Siam Interior | Premium Interior Design Bangladesh
+
+</footer>
+
+
+
+</body>
+
+</html>
